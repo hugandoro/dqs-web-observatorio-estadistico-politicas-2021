@@ -1,5 +1,5 @@
 <?php
-require_once 'model/medico.model.php';
+require_once 'model/usuario.model.php';
 
 class AuthController{
     
@@ -8,13 +8,14 @@ class AuthController{
     
     // Metodo constructor
     public function __CONSTRUCT(){
-        $this->model = new Medico();
+        $this->model = new Usuario();
         $this->auth  = FactoryAuth::getInstance();
     }
     
     // Metodo que estructura la pagina por defecto de la pantalla de logueo
     public function Index(){
         require_once 'view/header.view.php';
+        require_once 'view/navbar.view.php';
         require_once 'view/auth/auth-index.view.php';
         require_once 'view/footer.view.php';
     }
@@ -31,10 +32,10 @@ class AuthController{
             
             // Valida modelo de autenticacion definido
             if(__AUTH__ === 'token'){
-                header("Location: ?c=Historia&token=$r"); // Si fuera token, redirecciona al controlador por defecto anexando el N° de token generado
+                header("Location: ?c=Politicas&token=$r"); // Si fuera token, redirecciona al controlador por defecto anexando el N° de token generado
             } 
             else{
-                header('Location: ?c=Historia'); // En caso contrario, redireccion al controlador por defecto            
+                header('Location: ?c=Politicas'); // En caso contrario, redireccion al controlador por defecto            
             }
         } 
         catch(Exception $e){

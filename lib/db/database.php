@@ -3,7 +3,7 @@ class Database
 {
     public static function StartUp()
     {
-        $pdo = new PDO('mysql:host=localhost;dbname=dqs_votacion_2021;charset=utf8', 'root', '');
+        $pdo = new PDO('mysql:host=localhost;dbname=dqs_observatorio_politicas;charset=utf8', 'root', '');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);	
         return $pdo;
     }
