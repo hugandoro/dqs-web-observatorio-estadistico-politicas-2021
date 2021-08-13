@@ -34,7 +34,7 @@
             <div class="col-lg-1 col-md-0 col-xs-0" align="center"></div>
             <div class="col-lg-10 col-md-12 col-xs-12" align="center">
                 <hr>
-                <h3>Las políticas públicas son los proyectos que un Estado diseña y gestiona a través de una administración con fines de satisfacer las necesidades de una sociedad</h3>
+                <h3>Las políticas públicas son los proyectos que un Estado diseña y gestiona a través de la administración con fines de contribuir al abordaje de las necesidades de la sociedad.</h3>
                 <hr>
             </div>
             <div class="col-lg-1 col-md-0 col-xs-0" align="center"></div>
