@@ -38,11 +38,4 @@
                 <hr>
             </div>
             <div class="col-lg-1 col-md-0 col-xs-0" align="center"></div>
-
-            <div class="col-md-12 mb-12">
-                <hr>
-                <a href="https://forms.gle/w7VJ4Jg71EpB89vn6"><img src="assets/img/banner_encuesta_pp_adulto_mayor.jpg" alt="" class = "img-responsive" width="100%"></a>
-                <hr>
-            </div>
-
         </div>
