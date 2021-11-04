@@ -6,18 +6,18 @@ class Auth implements IAuth {
     public function autenticar($usuario) {
         if(!is_object($usuario)) {
             throw new Exception("Fallo autenticación");
-        } else if(empty($usuario->id)){
+        } else if(empty($usuario->identificacion)){
             throw new Exception("Fallo autenticación");
         }
         
-        $extraParaElToken = $usuario->id . $usuario->Usuario;
+        $extraParaElToken = $usuario->identificacion . $usuario->usuario;
         
         setcookie(
             $this->cookie,
             json_encode(
                 (object) [
-                    'id' => $usuario->id,
-                    'Usuario' => $usuario->Usuario,
+                    'id' => $usuario->identificacion,
+                    'Usuario' => $usuario->usuario,
                     'Token' => $this->token($extraParaElToken)
                 ]
             ),
@@ -37,7 +37,7 @@ class Auth implements IAuth {
                 throw new Exception("No esta autenticado");
             }
             
-            $extraParaElToken = $json->id . $json->Usuario;
+            $extraParaElToken = $json->identificacion . $json->usuario;
             
             if($json->Token !== $this->token($extraParaElToken)) {
                 throw new Exception("No esta autenticado");

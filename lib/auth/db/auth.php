@@ -18,7 +18,7 @@ class Auth implements IAuth {
     public function autenticar($usuario) {
         if(!is_object($usuario)) {
             throw new Exception("Fallo autenticación");
-        } else if(empty($usuario->id)){
+        } else if(empty($usuario->identificacion)){
             throw new Exception("Fallo autenticación");
         }
         
@@ -28,16 +28,16 @@ class Auth implements IAuth {
 		try 
 		{
 			$sql = "UPDATE usuario SET 
-						Token          = ?, 
-						TokenCaducidad = ?
-				    WHERE id = ?";
+						token          = ?, 
+						token_caducidad = ?
+				    WHERE identificacion = ?";
 
 			$this->pdo->prepare($sql)
 			     ->execute(
 				    array(
                         tokenPorCliente(),
                         $fecha->format('Y-m-d h:i:s'),
-                        $usuario->id
+                        $usuario->identificacion
 					)
 				);
 		} catch (Exception $e) 
@@ -71,8 +71,8 @@ class Auth implements IAuth {
         $this->EstaAutenticado();
         
         $sql = "UPDATE usuario SET 
-                    Token          = null, 
-                    TokenCaducidad = null
+                    token          = null, 
+                    token_caducidad = null
                 WHERE token = ?";
 
         $this->pdo->prepare($sql)

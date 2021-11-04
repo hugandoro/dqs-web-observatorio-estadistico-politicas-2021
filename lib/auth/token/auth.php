@@ -9,7 +9,7 @@ class Auth implements IAuth {
     public function autenticar($usuario) {
         if(!is_object($usuario)) {
             throw new Exception("Fallo autenticación");
-        } else if(empty($usuario->medico_id)){
+        } else if(empty($usuario->identificacion)){
             throw new Exception("Fallo autenticación");
         }
         

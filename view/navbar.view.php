@@ -15,6 +15,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="?c=Portada&a=Politicas&token=<?php echo @$_GET['token']; ?>">Guia de políticas públicas municipales | </a></li>
+        <li><a href="?c=Portada&a=buenasPracticas&token=<?php echo @$_GET['token']; ?>">Buenas practicas de seguimiento | </a></li>
         <li><a href="?c=Auth&a=Index&token=<?php echo @$_GET['token']; ?>">Usuarios registrados</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->

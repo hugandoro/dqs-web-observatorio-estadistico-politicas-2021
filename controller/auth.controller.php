@@ -30,12 +30,12 @@ class AuthController{
                 )
             );
             
-            // Valida modelo de autenticacion definido
+            // Valida modelo de autenticacion definido (Si llega a esta fase el USUARIO SI EXISTE)
             if(__AUTH__ === 'token'){
-                header("Location: ?c=Politicas&token=$r"); // Si fuera token, redirecciona al controlador por defecto anexando el N° de token generado
+                header("Location: ?c=Planillas&token=$r"); // Si fuera token, redirecciona al controlador por defecto anexando el N° de token generado
             } 
             else{
-                header('Location: ?c=Politicas'); // En caso contrario, redireccion al controlador por defecto            
+                header('Location: ?c=Planillas'); // En caso contrario, redireccion al controlador por defecto            
             }
         } 
         catch(Exception $e){

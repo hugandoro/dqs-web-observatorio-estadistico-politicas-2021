@@ -27,7 +27,7 @@ class Usuario
 			$stm->execute(array($usuario,sha1($password)));
             
 			$result = $stm->fetch(PDO::FETCH_OBJ);
-            
+
             if(!is_object($result)){
                 return new Usuario;
 			} 
