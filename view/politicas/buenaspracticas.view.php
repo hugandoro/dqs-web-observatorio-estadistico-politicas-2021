@@ -17,8 +17,8 @@
     </div>
     <div class="col-lg-8 col-md-12 col-xs-12">
         <h4><b>Política pública de equidad de genero</b></h4>
-        >> Bitacora<br>
-        >> Capacitaciones<br>
+        >> Seguimientos<br>
+        >> Percepción ciudadana<br>
         >> Caracterización<br>
     </div>
     <div class="col-lg-1 col-md-12 col-xs-12"></div>
@@ -35,8 +35,8 @@
     </div>
     <div class="col-lg-8 col-md-12 col-xs-12">
         <h4><b>Política pública de discapacidad</b></h4>
-        >> Bitacora<br>
-        >> Capacitaciones<br>
+        >> Seguimientos<br>
+        >> Percepción ciudadana<br>
         >> Caracterización<br>
     </div>
     <div class="col-lg-1 col-md-12 col-xs-12"></div>
@@ -53,8 +53,8 @@
     </div>
     <div class="col-lg-8 col-md-12 col-xs-12">
         <h4><b>Política pública de seguridad y convivencia</b></h4>
-        >> Bitacora<br>
-        >> Capacitaciones<br>
+        >> Seguimientos<br>
+        >> Percepción ciudadana<br>
         >> Caracterización<br>
     </div>
     <div class="col-lg-1 col-md-12 col-xs-12"></div>
@@ -71,8 +71,8 @@
     </div>
     <div class="col-lg-8 col-md-12 col-xs-12">
         <h4><b>Política pública de primera infancia</b></h4>
-        >> Bitacora<br>
-        >> Capacitaciones<br>
+        >> Seguimientos<br>
+        >> Percepción ciudadana<br>
         >> Caracterización<br>
     </div>
     <div class="col-lg-1 col-md-12 col-xs-12"></div>
@@ -89,8 +89,8 @@
     </div>
     <div class="col-lg-8 col-md-12 col-xs-12">
         <h4><b>Política pública de juventudes</b></h4>
-        >> Bitacora<br>
-        >> Capacitaciones<br>
+        >> Seguimientos<br>
+        >> Percepción ciudadana<br>
         >> Caracterización<br>
     </div>
     <div class="col-lg-1 col-md-12 col-xs-12"></div>
@@ -107,8 +107,8 @@
     </div>
     <div class="col-lg-8 col-md-12 col-xs-12">
         <h4><b>Política pública de presupuesto participativo</b></h4>
-        >> Bitacora<br>
-        >> Capacitaciones<br>
+        >> Seguimientos<br>
+        >> Percepción ciudadana<br>
         >> Caracterización<br>
     </div>
     <div class="col-lg-1 col-md-12 col-xs-12"></div>
@@ -125,8 +125,8 @@
     </div>
     <div class="col-lg-8 col-md-12 col-xs-12">
         <h4><b>Política pública de migraciones</b></h4>
-        >> Bitacora<br>
-        >> Capacitaciones<br>
+        >> Seguimientos<br>
+        >> Percepción ciudadana<br>
         >> Caracterización<br>
     </div>
     <div class="col-lg-1 col-md-12 col-xs-12"></div>
@@ -143,8 +143,8 @@
     </div>
     <div class="col-lg-8 col-md-12 col-xs-12">
         <h4><b>Política pública de adulto mayor</b></h4>
-        >> Bitacora<br>
-        >> Capacitaciones<br>
+        >> Seguimientos<br>
+        >> Percepción ciudadana<br>
         >> Caracterización<br>
     </div>
     <div class="col-lg-1 col-md-12 col-xs-12"></div>
