@@ -8,15 +8,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="?c=Portada&token=<?php echo @$_GET['token']; ?>">Observatorio Municipal de Dosquebradas</a>
+      <a class="navbar-brand" href="https://politicaspublicas.dosquebradas.gov.co/">Observatorio Municipal de Dosquebradas</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="?c=Portada&a=Politicas&token=<?php echo @$_GET['token']; ?>">Guia de políticas públicas municipales | </a></li>
+        <li><a href="?c=Portada&a=Politicas&token=<?php echo @$_GET['token']; ?>">Guia de políticas públicas | </a></li>
         <li><a href="?c=Portada&a=buenasPracticas&token=<?php echo @$_GET['token']; ?>">Buenas practicas de seguimiento | </a></li>
-        <li><a href="?c=Auth&a=Index&token=<?php echo @$_GET['token']; ?>">Usuarios registrados</a></li>
+        <li><a href="https://politicaspublicas.dosquebradas.gov.co/app_web" target="_blank">Caracterizacion de usuarios</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   

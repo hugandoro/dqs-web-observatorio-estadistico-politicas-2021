@@ -34,10 +34,48 @@
             <div class="col-lg-1 col-md-0 col-xs-0" align="center"></div>
             <div class="col-lg-10 col-md-12 col-xs-12" align="center">
                 <hr>
-                <h3>Las políticas públicas son los proyectos que un Estado diseña y gestiona a través de la administración con fines de contribuir al abordaje de las necesidades de la sociedad.</h3>
-                <hr>
+                <h3>...Las políticas públicas son los proyectos que un Estado diseña y gestiona a través de la administración con fines de contribuir al abordaje de las necesidades de la sociedad...</h3>
+                <hr><hr>
             </div>
             <div class="col-lg-1 col-md-0 col-xs-0" align="center"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-xs-3" align="center">
+                <div><a href="?c=Politicas&a=Adulto&token=<?php echo @$_GET['token']; ?>"><img src="/assets/img/icono_pdf_adulto.png" width="70%"></a></div><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-3" align="center">
+                <div><a href="?c=Politicas&a=Seguridad&token=<?php echo @$_GET['token']; ?>"><img src="/assets/img/icono_pdf_convivencia.png" width="70%"></a></div><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-3" align="center">
+                <div><a href="?c=Politicas&a=Discapacidad&token=<?php echo @$_GET['token']; ?>"><img src="/assets/img/icono_pdf_discapacidad.png" width="70%"></a></div><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-3" align="center">
+                <div><a href="?c=Politicas&a=Genero&token=<?php echo @$_GET['token']; ?>"><img src="/assets/img/icono_pdf_equidad.png" width="70%"></a></div><br>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
+                <hr><hr>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-xs-3" align="center">
+                <div><a href="?c=Politicas&a=Infancia&token=<?php echo @$_GET['token']; ?>"><img src="/assets/img/icono_pdf_infancia.png" width="70%"></a></div><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-3" align="center">
+                <div><a href="?c=Politicas&a=Juventudes&token=<?php echo @$_GET['token']; ?>"><img src="/assets/img/icono_pdf_juventudes.png" width="70%"></a></div><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-3" align="center">
+                <div><a href="?c=Politicas&a=Migraciones&token=<?php echo @$_GET['token']; ?>"><img src="/assets/img/icono_pdf_migrados.png" width="70%"></a></div><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-3" align="center">
+                <div><a href="?c=Politicas&a=Presupuesto&token=<?php echo @$_GET['token']; ?>"><img src="/assets/img/icono_pdf_presupuesto.png" width="70%"></a></div><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12" align="center">
+                <hr><hr>
+            </div>
         </div>
 
         <div class="row">
